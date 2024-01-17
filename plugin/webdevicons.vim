@@ -80,7 +80,7 @@ call s:set('g:WebDevIconsTabAirLineAfterGlyphPadding', '')
 " config defaults {{{1
 "========================================================================
 
-call s:set('g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol', '')
+call s:set('g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol', '󰈚')
 call s:set('g:WebDevIconsUnicodeByteOrderMarkerDefaultSymbol', '')
 call s:set('g:WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol', g:DevIconsEnableFoldersOpenClose ? '' : '')
 call s:set('g:WebDevIconsUnicodeDecorateFolderNodesSymlinkSymbol',  '')
@@ -174,16 +174,16 @@ function! s:setDictionaries()
         \ 'slim'     : '',
         \ 'haml'     : '',
         \ 'ejs'      : '',
-        \ 'css'      : '',
+        \ 'css'      : '',
         \ 'less'     : '',
-        \ 'md'       : '',
-        \ 'mdx'      : '',
-        \ 'markdown' : '',
-        \ 'rmd'      : '',
+        \ 'md'       : '',
+        \ 'mdx'      : '',
+        \ 'markdown' : '',
+        \ 'rmd'      : '',
         \ 'json'     : '',
         \ 'webmanifest' : '',
         \ 'js'       : '',
-        \ 'mjs'      : '',
+        \ 'mjs'      : '󰎙',
         \ 'jsx'      : '',
         \ 'rb'       : '',
         \ 'gemspec'  : '',
@@ -285,11 +285,11 @@ function! s:setDictionaries()
         \ 'elm'      : '',
         \ 'swift'    : '',
         \ 'xcplayground' : '',
-        \ 'tex'      : 'ﭨ',
-        \ 'r'        : 'ﳒ',
+        \ 'tex'      : '󰙩',
+        \ 'r'        : '󰟔',
         \ 'rproj'    : '鉶',
         \ 'sol'      : 'ﲹ',
-        \ 'pem'      : ''
+        \ 'pem'      : '󰌋'
         \}
 
   let s:file_node_exact_matches = {
@@ -308,17 +308,18 @@ function! s:setDictionaries()
         \ '.gitignore'                       : '',
         \ '.gitmodules'                      : '',
         \ '.gitattributes'                   : '',
-        \ '.bashrc'                          : '',
-        \ '.zshrc'                           : '',
-        \ '.zshenv'                          : '',
-        \ '.zprofile'                        : '',
+        \ 'COMMIT_EDITMSG'                   : '',
+        \ '.bashrc'                          : '',
+        \ '.zshrc'                           : '',
+        \ '.zshenv'                          : '',
+        \ '.zprofile'                        : '',
         \ '.vimrc'                           : '',
         \ '.gvimrc'                          : '',
         \ '_vimrc'                           : '',
         \ '_gvimrc'                          : '',
-        \ '.bashprofile'                     : '',
+        \ '.bashprofile'                     : '',
         \ 'favicon.ico'                      : '',
-        \ 'license'                          : '',
+        \ 'license'                          : '󰌋',
         \ 'node_modules'                     : '',
         \ 'react.jsx'                        : '',
         \ 'procfile'                         : '',
@@ -329,7 +330,7 @@ function! s:setDictionaries()
         \ 'gemfile'                          : '',
         \ 'makefile'                         : '',
         \ 'cmakelists.txt'                   : '',
-        \ 'robots.txt'                       : 'ﮧ'
+        \ 'robots.txt'                       : '󰚩'
         \}
 
   let s:file_node_pattern_matches = {
