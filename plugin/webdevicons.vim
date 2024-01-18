@@ -80,7 +80,7 @@ call s:set('g:WebDevIconsTabAirLineAfterGlyphPadding', '')
 " config defaults {{{1
 "========================================================================
 
-call s:set('g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol', '󰈚')
+call s:set('g:WebDevIconsUnicodeDecorateFileNodesDefaultSymbol', '')
 call s:set('g:WebDevIconsUnicodeByteOrderMarkerDefaultSymbol', '')
 call s:set('g:WebDevIconsUnicodeDecorateFolderNodesDefaultSymbol', g:DevIconsEnableFoldersOpenClose ? '' : '')
 call s:set('g:WebDevIconsUnicodeDecorateFolderNodesSymlinkSymbol',  '')
@@ -183,7 +183,7 @@ function! s:setDictionaries()
         \ 'json'     : '',
         \ 'webmanifest' : '',
         \ 'js'       : '',
-        \ 'mjs'      : '󰎙',
+        \ 'mjs'      : '',
         \ 'jsx'      : '',
         \ 'rb'       : '',
         \ 'gemspec'  : '',
@@ -227,7 +227,7 @@ function! s:setDictionaries()
         \ 'nix'      : '',
         \ 'lua'      : '',
         \ 'java'     : '',
-        \ 'jenkinsfile' : '',
+        \ 'jenkinsfile' : '',
         \ 'sh'       : '',
         \ 'fish'     : '',
         \ 'bash'     : '',
@@ -285,11 +285,11 @@ function! s:setDictionaries()
         \ 'elm'      : '',
         \ 'swift'    : '',
         \ 'xcplayground' : '',
-        \ 'tex'      : '󰙩',
-        \ 'r'        : '󰟔',
+        \ 'tex'      : 'ﭨ',
+        \ 'r'        : 'ﳒ',
         \ 'rproj'    : '鉶',
         \ 'sol'      : 'ﲹ',
-        \ 'pem'      : '󰌋'
+        \ 'pem'      : ''
         \}
 
   let s:file_node_exact_matches = {
