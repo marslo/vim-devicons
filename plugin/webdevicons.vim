@@ -110,7 +110,7 @@ function s:getDistro()
     elseif s:lsb =~# 'Gentoo'
       let s:distro = ''
     elseif s:lsb =~# 'Ubuntu'
-      let s:distro = ''
+      let s:distro = ''
     elseif s:lsb =~# 'Cent'
       let s:distro = ''
     elseif s:lsb =~# 'Debian'
@@ -289,7 +289,7 @@ function! s:setDictionaries()
         \ 'r'        : 'ﳒ',
         \ 'rproj'    : '鉶',
         \ 'sol'      : 'ﲹ',
-        \ 'pem'      : ''
+        \ 'pem'      : '󰌋'
         \}
 
   let s:file_node_exact_matches = {
